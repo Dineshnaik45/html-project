@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>addmition form</title>
+</head>
+<body>
+    <center><h1>online addmition from</h1></center>
+<form action="get">
+    <h2>personal information</h2>
+    <h2>student name:</h2>
+    <h3>first name</h3> 
+    <input type="text" id ="first name">
+    <h3>middel name</h3>
+    <input type="text" id ="middel name">
+    <h3>last name</h3>
+    <input type="text" id ="last name">
+    <h2>contact informetion:</h2>
+    <label for="address">address:</label>
+    <br>
+    <textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+    <br>
+    <label for="mobileno">mobile no:</label>
+    <input type="tel" name="mobileno" id="mobileno">
+   <label for="email"> <b>email</b></label>
+    <input type="email" name="email" id="email">
+    <br>
+    <br>
+    <label for="dob">date of birth</label>
+    <input type="date" name="dob" id="dob">
+    <br> 
+    <h3>additional information:</h3>
+    <label for="category">category</label>
+    <input type="radio"name="category" value="open">open
+    <input type="radio" name="category"value="sc">sc
+    <input type="radio" name="category" value="st">st
+    <input type="radio" name="category"  value="obc">obc
+    <input type="radio" name="category" value="sbc">sbc
+    <input type="radio" name="category"value="vj/nt">vj/nt
+    <br>
+    <br>
+   
+    <label for="course">course:</label>
+    <select name="course" id="course">
+        <option value=""></option>
+        <option value="fy bsc">fy bsc</option>
+        <option value="sy bsc">sy bsc</option>
+        <option value="ty bsc"> ty bsc</option>
+    </select>
+    <br>
+    <br>
+    <label for="subject">subject:</label>
+    <br>
+    <input type="checkbox" name="mathematic" id="math">mathematic
+    <input type="checkbox" name="pysics" id="pysics">pysics
+    <input type="checkbox" name="chemistry" id="chemistry">chemistry
+    <input type="checkbox" name="biology" id="biology">biology
+    <input type="checkbox" name="electronic" id="electronic">electronic
+    <br>
+    <input type="checkbox" name="stastic" id="stastic">stastic
+    <input type="checkbox" name="computer" id="computer">computer 
+    <input type="checkbox" name="java" id="java">java
+    <input type="checkbox" name="python" id="python">python
+    <br>
+    <center><h1>login information</h1></center>
+    <br>
+    <label for="username">username: </label>
+    <input type="text" name="username">
+    <br>
+    <label for="password">password: </label>
+    <input type="password" name="pass" id="pass" placeholder="password">
+    <br>
+    <br>
+    <textarea name="" id="" cols="64" rows="5" disabled>
+        i reruest permistion
+    </textarea>
+    <br>
+    <input type="checkbox" name="check" id="checkbox">i all instruction carefully,i accept all
+<br> <br>
+<button>submit</button>
+<input type="button" value="reset">
+<button>exit</button>
+    
+</form>    
+</body>
+</html>
