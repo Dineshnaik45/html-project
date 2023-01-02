@@ -22,8 +22,8 @@
         <tr >
             <th>Mon</th>
             <th>Tue</th>
-            <th>This</th>
-            <th>Wen</th>
+            <th>wed</th>
+            <th>thi</th>
             <th>Fri</th>
             <th>Sat</th>
         </tr>
